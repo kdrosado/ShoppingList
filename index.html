@@ -1,0 +1,40 @@
+
+<!doctype html>
+
+<html>
+
+    <head>
+    	<title>Shopping List</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+
+    <body>
+
+        <!-- Main content set-up -->
+    	<div id="container">
+
+            <!-- Header -->
+            <header>
+                <h1>Shopping List</h1>
+            </header>
+            <!--Input set up -->
+            <form>
+                <input id="item"/>
+            </form>
+            <!-- Buttons set-up -->
+            <form>
+                <input type="button" id="add" value="Add Item"/>
+                <input type="button" id="new" value="New List"/> 
+            </form>
+            <!-- The list to be added by user -->
+            <div id="wrap">
+                <ul id="the_list"></ul>
+            </div>
+
+        </div> <!--Closing div for container id-->
+    </body>
+</html>
