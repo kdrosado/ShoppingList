@@ -2,19 +2,19 @@
 
 /* Body styling */
 body {
-    width:100%;
-    height: 100%;
-    background-color:#BC8F8F; 
-    padding:0;
-    margin:0;
+    background-image: url(http://www.clker.com/cliparts/H/t/l/u/V/y/women-shopping.svg);
+    background-repeat: no-repeat;
+    background-color: #bc8f8f;
+    padding:0px;
+    margin: 0px;
     font-family: Helvetica, Arial, sans-serif, cursive;
-    color:#FA8072;
+    /*color:#FA8072;*/
     
 }
 /*Main content style */
 #container {
-    width:400px;
-    margin: 90px auto;
+    width:500px;
+    margin: 60px auto;
     padding: 20px;
     text-align: center;
     background-color: white;
@@ -25,12 +25,15 @@ h1{
     font-size: 45px;
     color: #800000;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
+    text-align: center;
 }
 /* Input text box */
 #item{
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 450px;
+    display: block;
 }
 
 #wrap {
